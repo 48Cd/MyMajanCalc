@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyMajanCalc</string>
+    <string name="title_section1">CALC</string>
+    <string name="title_section2">LOG</string>
+    <string name="title_section3">DEBUG</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+    <string name="title_list_rate_preference">RATE</string>
+    <string name="title_list_bonus_preference">BONUS</string>
+    <string name="title_switch_changePT_preference">CHANGE_PT</string>
+    <string name="title_list_return_preference">RETURN</string>
+    
+    <string name="summary_list_rate_preference">Choice rate</string>
+    <string name="summary_list_bonus_preference">Choice bunus</string>
+    <string name="summary_switch_changePT_preference">Assist CHANGE_PT</string>
+    <string name="summary_list_return_preference">Choice return</string>
+    
+    <string name="entryvalues_list_rate_preference_default">5</string>
+    <string name="entryvalues_list_bonus_preference_default">20</string>
+    <string name="switch_changePT_preference_default">false</string>
+    <string name="entryvalues_list_return_preference_default">30000</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="action_note">Note</string>
+    <string name="note">
+        <pre>
+            <code>
+                "
+★MyMajanCalc★
+
+[CALC]
+-プレイヤー名の受付
+-GAMEごとの点数受付
+-GAMEごとの点数チェック
+-プレイヤーごとの点数合計
+-プレイヤーごとの点数合計チェック
+-場代受付
+-一人当たりの場代表示
+-清算
+
+[LOG]
+-過去ログの参照
+
+[DEBUG]
+-設定値の確認
+
+[OPTION:Note]
+-リリースノートの確認
+
+[OPTION:Setting]
+-レートの設定
+-ボーナス(ウマ)の設定
+-[CALC]の入力時に点数で受け付けてポイントに直すかの設定
+-リターン(オカ)の設定
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+[ver0.3]
+-CALCの実装
+
+[ver0.1]
+-UI部分の実装
+-[DEBUG]の実装
+-[OPTION:Note]の実装
+-[OPTION:Setting]の実装
+                "
+            </code>
+        </pre>
+    </string>
+    
+    <string name="todo">
+    	<pre>
+            <code>
+                "
+        LOG image
+        ---
+        [game/name1/name2/name3/name4]
+        No/pt1/pt2/pt3/pt4
+        No'/pt1'/pt2'/pt3'/pt4'
+        ...
+        pt_sum/sum1'/sum2'/sum3'/sum4'
+        charge/charge1/charge2/charge3/charge4
+        resurt/money1/money2/money3/money4
+
+        timestamp:YYYYMMDD
+        charge:money
+        ---
+        		"
+            </code>
+         </pre>
+    </string>
+
+</resources>

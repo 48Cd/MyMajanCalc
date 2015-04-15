@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_rate_preference">
+        <item>10/1000(.1)</item>
+        <item>30/1000(.3)</item>
+        <item>50/1000(.5)</item>
+    </string-array>
+ 
+    <string-array name="entryvalues_list_rate_preference">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="entries_list_return_preference">
+        <item>30000</item>
+        <item>25000</item>
+    </string-array>
+ 
+    <string-array name="entryvalues_list_return_preference">
+        <item>30000</item>
+        <item>25000</item>
+    </string-array>
+    
+    <string-array name="entries_list_bonus_preference">
+        <item>10/20</item>
+        <item>5/10</item>
+    </string-array>
+ 
+    <string-array name="entryvalues_list_bonus_preference">
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+   
+</resources>

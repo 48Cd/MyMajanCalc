@@ -1,0 +1,47 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <PreferenceCategory
+            android:title="Setting">
+ 
+        <ListPreference
+                android:key="list_rate_preference"
+                android:title="@string/title_list_rate_preference"
+                android:summary="@string/summary_list_rate_preference"
+                android:entries="@array/entries_list_rate_preference"
+                android:entryValues="@array/entryvalues_list_rate_preference"
+                android:dialogTitle="@string/title_list_rate_preference" 
+                android:defaultValue="@string/entryvalues_list_rate_preference_default"/>
+        <ListPreference 
+	            android:key="list_bonus_preference" 
+            	android:title="@string/title_list_bonus_preference" 
+            	android:summary="@string/summary_list_bonus_preference" 
+            	android:entries="@array/entries_list_bonus_preference" 
+            	android:entryValues="@array/entryvalues_list_bonus_preference" 
+            	android:dialogTitle="@string/title_list_bonus_preference" 
+            	android:defaultValue="@string/entryvalues_list_bonus_preference_default" />
+
+        <SwitchPreference
+		        android:key="switch_changePT_preference"
+		        android:title="@string/title_switch_changePT_preference" 
+		        android:summary="@string/summary_switch_changePT_preference"
+		        android:switchTextOff="OFF"
+    			android:switchTextOn="ON"
+    			android:defaultValue="@string/switch_changePT_preference_default"/>
+
+        <ListPreference
+                android:key="list_return_preference"
+                android:title="@string/title_list_return_preference"
+                android:summary="@string/summary_list_return_preference"
+                android:entries="@array/entries_list_return_preference"
+                android:entryValues="@array/entryvalues_list_return_preference"
+                android:dialogTitle="@string/title_list_return_preference" 
+                android:defaultValue="@string/entryvalues_list_return_preference_default"
+                android:dependency="switch_changePT_preference"/>
+        
+        
+        
+ 
+    </PreferenceCategory>
+ 
+</PreferenceScreen>
